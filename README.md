@@ -22,7 +22,7 @@ To write a program to find the LU Decomposition of a matrix.
 
 ## Program:
 (i) To find the L and U matrix
-```
+```python
 '''Program to find L and U matrix using LU decomposition.
 Developed by: Sre Vishnu Priyar L N
 RegisterNumber: 26009605
@@ -37,7 +37,7 @@ print(L)
 print(U)
 ```
 (ii) To find the LU Decomposition of a matrix
-```
+```python
 '''Program to solve a matrix using LU decomposition.
 Developed by: Sre Vishnu Priyar L N
 RegisterNumber: 26009605
