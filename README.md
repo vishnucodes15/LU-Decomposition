@@ -7,17 +7,22 @@ To write a program to find the LU Decomposition of a matrix.
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
-## Algorithm
-(i)
-1. Importing Numpy module package and lu function from Scipy package
-2. Getting the matrix input and storing it in a variable
-3. Finding the L and U matrix using the lu function
-4. Printing the result
+## Algorithm:
+##5a Algorithm
+1. import os and numpy module packages and import lu from scipy.linalg.
+2. Get input and convert to matrix form in the code.
+3. Find the L and U matrices in code and store in variables.
+4. Print the result.
+
+##5b Algorithm
+1. import os and numpy module packages and import lu_solve and lu_factor from scipy.linalg.
+2. Receive inputs from user and convert it to matrices in code.
+3. Solve using the inputs and find the LU Decomposition.
+4. Print the result.
 
 ## Program:
 (i) To find the L and U matrix
 ```
-/*
 '''Program to find L and U matrix using LU decomposition.
 Developed by: Sre Vishnu Priyar L N
 RegisterNumber: 26009605
@@ -30,11 +35,9 @@ A=np.array(eval(input()))
 P,L,U=lu(A)
 print(L)
 print(U)
-*/
 ```
 (ii) To find the LU Decomposition of a matrix
 ```
-/*
 '''Program to solve a matrix using LU decomposition.
 Developed by: Sre Vishnu Priyar L N
 RegisterNumber: 26009605
@@ -48,13 +51,17 @@ b=np.array(eval(input()))
 l,p=lu_factor(a)
 x=lu_solve((l,p),b)
 print(x)
-*/
 ```
 
 ## Output:
-Output For 1st Program
+Program(5a)
+<img width="1482" height="866" alt="image" src="https://github.com/user-attachments/assets/c213854d-ae07-46c5-941d-bdf84eef6d27" />
+Output(5a)
 <img width="1456" height="940" alt="image" src="https://github.com/user-attachments/assets/51a1e41a-ba4b-4920-bdcc-b9ca709b5f98" />
-Output For 2nd Program
+
+Program(5b)
+<img width="1470" height="907" alt="image" src="https://github.com/user-attachments/assets/611d729a-3809-403c-adbc-964321dea671" />
+Output(5b)
 <img width="1312" height="897" alt="image" src="https://github.com/user-attachments/assets/300c8804-3656-4b80-b21f-7a854e90411e" />
 
 
